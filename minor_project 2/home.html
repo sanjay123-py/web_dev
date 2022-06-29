@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sanjay">
+    <meta name="keywords" content="veterinary,pet,dog,cat,petnary">
+    <title>PeTnary</title>
+    <link rel="icon"  href="paw.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8dba800f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="image/puppy_co.jpg" class="img_header">
+        <div class="about">
+            <h1>OUR CLINIC</h1>
+        </div>
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <div class="text_h1">
+            <h1>Welcome to<br> <span class="span">PeTnary Hospital</span></h1>
+
+            <p class="text_p">
+                If you looking for a veterinarian<br> that truly goes above and beyond in <br> the care and concern for patients, <br>we're the best choice.
+            </p>
+            <div class="t_butt">
+                <button class="view_button">view more
+                </button>
+            </div>
+        </div>
+        <img src="paw.png" class="paw">
+        <span class="hor"></span>
+        <span class="ver"></span>
+    </div>
+    <div class="nav" id="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">Support Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Adopt</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Pet sales</a></li>
+            <li><a href="#">Contact</a></li>
+
+
+        </ul>
+        <img src="click.gif" class="menu_bar_logo" id="menu">
+         <img src="back.gif" class="menu_bar_logo menu_back" id="menu2"> 
+    </div>
+    <script >
+        var menu=document.getElementById("menu");
+        var menu2=document.getElementById("menu2");
+        var nav_bar=document.getElementById("nav");
+        nav_bar.style.right="-230px";
+        menu.onclick=function()
+        {
+            if(nav_bar.style.right=="-230px")
+            {
+                nav_bar.style.right="0px";
+                nav_bar.style.opacity="0.89"
+                menu.style.opacity="0";
+               menu2.style.opacity="1";
+            }
+            else
+            {
+                nav_bar.style.right="-230px";
+                menu2.style.opacity="0";
+               menu.style.opacity="1";  
+               
+            }
+        }
+        menu2.onclick=function()
+        {
+            if(nav_bar.style.right=="-230px")
+            {
+                nav_bar.style.right="0px";
+                nav_bar.style.opacity="0.89"
+                menu.style.opacity="0";
+               menu2.style.opacity="1";
+            }
+            else
+            {
+                nav_bar.style.right="-230px";   
+                menu2.style.opacity="0";
+               menu.style.opacity="1";
+            }
+        }
+    </script>
+    <div class="dis_w" id="dis_w">
+        <img src="image/treatment1.jpg" class="img1" id="img1">
+        <img src="image/treatement2.jpg" class="img2" id="img2">
+        <span class="span1" id="span1">True Trust</span>
+        <span class="span2" id="span2">True Care</span>
+
+    <div class="dis">
+    <p class="para" id ="para">
+            We are providing a various therapy for Dogs,Cats,and various kinds of animals. 
+            Our clinic have facilities that capable of doing immediate treatments , all our 
+            veterinarian are renowned and skillfull people ans we assure to take care of your pets. 
+    </p>
+    </div>
+    <script>
+        var para=document.getElementById("dis_w");
+        var span1=document.getElementById("span1");
+        var span2=document.getElementById("span2");
+        para.onmouseover=function(){
+                span1.style.opacity="0.5";
+                span2.style.opacity="0.5";
+            
+        }
+        para.onmouseleave=function(){
+            span1.style.opacity="0";
+            span2.style.opacity="0";
+        }
+    </script>
+    </div>
+    <div class="topic">
+        <h1 class="topic_h1">Pet Products</h1>
+    </div>
+<div class="container">
+
+
+    <div class="box">
+        <div class="image">
+            <img src="image/pedig.jpg" id="h_img1" >
+            <div class="overlay" id="f1">
+                <a href="#"  class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="title">Pedigree</h1>
+            <div class="subinfo">
+                <div class="price">₹1000/-<span>₹1400/-</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="image/biscuits.jpg" id="h_img2">
+            <div class="overlay" id="f2">
+                <a href="#"  class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+    
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="title">Biscuits</h1>
+            <div class="subinfo">
+                <div class="price">₹1000/-<span>1₹400/-</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="image/bowl.jpg" id="h_img3">
+            <div class="overlay" id="f3" >
+                <a href="#"  class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+    
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="title">Bowl</h1>
+            <div class="subinfo">
+                <div class="price">₹1000/-<span>₹1400/-</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="image/oil.jpg" id="h_img4">
+            <div class="overlay" id="f4">
+                <a href="#"  class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+    
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="title">Masage Oil</h1>
+            <div class="subinfo">
+                <div class="price">₹1000/-<span>₹1400/-</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="image/pedigree.jpg.png" id="h_img5">
+            <div class="overlay" id="f5">
+                <a href="#"  class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="title">Pedigree</h1>
+            <div class="subinfo">
+                <div class="price">₹1000/-<span>₹1400/-</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="image/oil.jpg"id="h_img6">
+            <div class="overlay" id="f6">
+                <a href="#"  class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+    
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="title">Massage Oil</h1>
+            <div class="subinfo">
+                <div class="price">₹1000/-<span>₹1400/-</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="image/oil.jpg" id="h_img7">
+            <div class="overlay" id="f7">
+                <a href="#"  class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+    
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="title">Massage Oil</h1>
+            <div class="subinfo">
+                <div class="price">₹1000/-<span>₹1400/-</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="image/pedig.jpg" id="h_img8">
+            <div class="overlay" id="f8">
+                <a href="#"  class="fas fa-shopping-cart"></a>
+                <a href=""" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+    
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="title">Pedigree</h1>
+            <div class="subinfo">
+                <div class="price">₹1000/-<span>₹1400/-</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script>
+        var ele1=document.getElementById("f1")
+        var ele2=document.getElementById("h_img1");
+        ele1.style.opacity="0";
+        ele2.onmouseover=function(){
+            if(ele1.style.opacity=="0"){
+                ele1.style.opacity="1";
+            }
+        };
+        ele1.onmouseover=function(){
+            if(ele1.style.opacity=="0"){
+                ele1.style.opacity="1";
+            }
+            else{
+                ele1.style.opacity="1";
+            }
+        };
+        ele2.onmouseleave=function(){
+            ele1.style.opacity="0";
+            
+        }
+        var ele3=document.getElementById("f2")
+        var ele4=document.getElementById("h_img2");
+        ele3.style.opacity="0";
+        ele4.onmouseover=function(){
+            if(ele3.style.opacity=="0"){
+                ele3.style.opacity="1";
+            }
+        };
+        ele3.onmouseover=function(){
+            if(ele3.style.opacity=="0"){
+                ele3.style.opacity="1";
+            }
+            else{
+                ele3.style.opacity="1";
+            }
+        };
+        ele4.onmouseleave=function(){
+            ele3.style.opacity="0";
+            
+        }
+        var ele5=document.getElementById("f3");
+        var ele6=document.getElementById("h_img3");
+        ele5.style.opacity="0";
+        ele6.onmouseover=function(){
+            if(ele5.style.opacity=="0"){
+                ele5.style.opacity="1";
+            }
+        };
+        ele5.onmouseover=function(){
+            if(ele5.style.opacity=="0"){
+                ele5.style.opacity="1";
+            }
+            else{
+                ele5.style.opacity="1";
+            }
+        };
+        ele6.onmouseleave=function(){
+            ele5.style.opacity="0";
+            
+        }
+        var ele7=document.getElementById("f4")
+        var ele8=document.getElementById("h_img4");
+        ele7.style.opacity="0";
+        ele8.onmouseover=function(){
+            if(ele7.style.opacity=="0"){
+                ele7.style.opacity="1";
+            }
+        };
+        ele7.onmouseover=function(){
+            if(ele7.style.opacity=="0"){
+                ele7.style.opacity="1";
+            }
+            else{
+                ele7.style.opacity="1";
+            }
+        };
+        ele8.onmouseleave=function(){
+            ele7.style.opacity="0";
+            
+        }
+        var ele11=document.getElementById("f6")
+        var ele12=document.getElementById("h_img6");
+        ele11.style.opacity="0";
+        ele12.onmouseover=function(){
+            if(ele11.style.opacity=="0"){
+                ele11.style.opacity="1";
+            }
+        };
+        ele11.onmouseover=function(){
+            if(ele11.style.opacity=="0"){
+                ele11.style.opacity="1";
+            }
+            else{
+                ele11.style.opacity="1";
+            }
+        };
+        ele12.onmouseleave=function(){
+            ele11.style.opacity="0";
+            
+        }
+        var ele13=document.getElementById("f7")
+        var ele14=document.getElementById("h_img7");
+        ele13.style.opacity="0";
+        ele14.onmouseover=function(){
+            if(ele13.style.opacity=="0"){
+                ele13.style.opacity="1";
+            }
+        };
+        ele13.onmouseover=function(){
+            if(ele13.style.opacity=="0"){
+                ele13.style.opacity="1";
+            }
+            else{
+                ele13.style.opacity="1";
+            }
+        };
+        ele14.onmouseleave=function(){
+            ele13.style.opacity="0";
+            
+        }
+        var ele15=document.getElementById("f8")
+        var ele16=document.getElementById("h_img8");
+        ele15.style.opacity="0";
+        ele16.onmouseover=function(){
+            if(ele15.style.opacity=="0"){
+                ele15.style.opacity="1";
+            }
+        };
+        ele15.onmouseover=function(){
+            if(ele15.style.opacity=="0"){
+                ele15.style.opacity="1";
+            }
+            else{
+                ele15.style.opacity="1";
+            }
+        };
+        ele16.onmouseleave=function(){
+            ele15.style.opacity="0";
+            
+        }
+        var elef=document.getElementById("f5")
+        var elee=document.getElementById("h_img5");
+        elef.style.opacity="0";
+        elee.onmouseover=function(){
+            if(elef.style.opacity=="0"){
+                elef.style.opacity="1";
+            }
+        };
+        elef.onmouseover=function(){
+            if(elef.style.opacity=="0"){
+                elef.style.opacity="1";
+            }
+            else{
+                elef.style.opacity="1";
+            }
+        };
+        elee.onmouseleave=function(){
+            elef.style.opacity="0";
+            
+        }
+        
+    </script>
+
+</div>
+<div class="donate">
+    <img src="image/cat_face.jpg">
+    <div class="con_box"  id="d_btn">
+        <h1>Why Donate?</h1>
+        <p>To all the volunteers that give there time,the rescues that dedicate the
+            themselves to helping us, the foster fmily that open their homes to us,
+            and all those who donate money in this tough economy.
+        </p>
+        <div class="btn_donate">
+            <button>DONATE</button>
+        </div>
+        
+    </div>
+    <img src="image/hand.jpg" id="d_img1">
+</div>
+<script>
+    var h1=document.getElementById("d_btn");
+    var h2=document.getElementById("d_img1");
+    h1.onmouseover = function(){
+        h2.style.opacity ="0";
+    }
+    h1.onmouseleave=function(){
+        if(h2.style.opacity=="0"){
+            h2.style.opacity=1;
+        }
+    }
+</script>
+<footer class="footer">
+    <div class="foot_container">
+        <div class="row">
+            <div class="footer_col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="">about us</a></li>
+                    <li><a href="">our services</a></li>
+                    <li><a href="">privacu policy</a></li>
+                    <li><a href="">government programs</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">shipping</a></li>
+                    <li><a href="">order status</a></li>
+                    <li><a href="">payment</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="">medicine</a></li>
+                    <li><a href="">food products</a></li>
+                    <li><a href="">accessories</a></li>
+                    <li><a href="">vaccine</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
